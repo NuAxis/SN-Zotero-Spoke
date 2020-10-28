@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>Items</name>
+        <namespace>ZoteroWebAPI300</namespace>
+        <scope_name>e4fb35f6dbcce010126ba5d51b961965</scope_name>
+        <serialized_content>{"ZoteroWebAPI300:Items":{"$COCollectionField":[{"Items":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:01:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c429ce4b1b40201017ef4375cc4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name>sys_complex_object_c429ce4b1b40201017ef4375cc4bcba5</sys_update_name>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:01:38</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

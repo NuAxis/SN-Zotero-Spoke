@@ -10,33 +10,3080 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>zotero_lookup</internal_name>
-        <label_cache/>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"{{action.itemkey}}","label":"action➛itemKey","type":"action","ref":""},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":""},{"name":"{{action.format}}","label":"action➛format","type":"action","ref":""},{"name":"{{action.include}}","label":"action➛include","type":"action","ref":""},{"name":"{{action.content}}","label":"action➛content","type":"action","ref":""},{"name":"{{action.style}}","label":"action➛style","type":"action","ref":""},{"name":"{{action.users_or_groups}}","label":"action➛users_or_groups","type":"action","ref":""},{"name":"{{action.elementid}}","label":"action➛elementId","type":"action","ref":""},{"name":"{{action.itemkey1}}","label":"action➛itemKey1","type":"action","ref":""},{"name":"{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c0663690-3a43-41d2-84ad-a98bdacc27a2].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>404cce4f1b40201017ef4375cc4bcb08</latest_snapshot>
+        <master_snapshot>c84cce4f1b40201017ef4375cc4bcb3d</master_snapshot>
         <name>Zotero LookUp</name>
         <natlang/>
         <outputs/>
-        <state>draft</state>
+        <outputs/>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>NuAxis.Innovations</sys_created_by>
         <sys_created_on>2020-10-28 01:26:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>be1cb5f6dbcce010126ba5d51b9619c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Zotero LookUp</sys_name>
         <sys_overrides/>
         <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
         <sys_policy/>
         <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_be1cb5f6dbcce010126ba5d51b9619c7</sys_update_name>
-        <sys_updated_by>NuAxis.Innovations</sys_updated_by>
-        <sys_updated_on>2020-10-28 01:26:16</sys_updated_on>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=be1cb5f6dbcce010126ba5d51b9619c7"/>
     <sys_variable_value action="delete_multiple" query="document_key=be1cb5f6dbcce010126ba5d51b9619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>be1cb5f6dbcce010126ba5d51b9619c7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:05:02</sys_created_on>
+        <sys_id>31e9c2cb1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:08:21</sys_updated_on>
+        <value/>
+        <variable display_value="">e9e9c2cb1b40201017ef4375cc4bcb75</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=be1cb5f6dbcce010126ba5d51b9619c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>root</field>
+        <id>be1cb5f6dbcce010126ba5d51b9619c7</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:05:02</sys_created_on>
+        <sys_id>bde9c2cb1b40201017ef4375cc4bcb7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:08:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_be1cb5f6dbcce010126ba5d51b9619c7</table>
+        <value>{{step[c0663690-3a43-41d2-84ad-a98bdacc27a2].root}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT IN2ac902cb1b40201017ef4375cc4bcb72,d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action>
+        <cid>c0663690-3a43-41d2-84ad-a98bdacc27a2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:33</sys_created_on>
+        <sys_id>2ac902cb1b40201017ef4375cc4bcb72</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:05:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ac902cb1b40201017ef4375cc4bcb72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ac902cb1b40201017ef4375cc4bcb72</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>7ec902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <value>{&#13;
+    "key": "LM59USNB",&#13;
+    "version": 379,&#13;
+    "library": {&#13;
+        "type": "group",&#13;
+        "id": 2438468,&#13;
+        "name": "CECC Shared Library",&#13;
+        "links": {&#13;
+            "alternate": {&#13;
+                "href": "https://www.zotero.org/groups/2438468",&#13;
+                "type": "text/html"&#13;
+            }&#13;
+        }&#13;
+    },&#13;
+    "links": {&#13;
+        "self": {&#13;
+            "href": "https://api.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "application/json"&#13;
+        },&#13;
+        "alternate": {&#13;
+            "href": "https://www.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "text/html"&#13;
+        }&#13;
+    },&#13;
+    "meta": {&#13;
+        "createdByUser": {&#13;
+            "id": 6069070,&#13;
+            "username": "luke.adams",&#13;
+            "name": "",&#13;
+            "links": {&#13;
+                "alternate": {&#13;
+                    "href": "https://www.zotero.org/luke.adams",&#13;
+                    "type": "text/html"&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "creatorSummary": "Zenz",&#13;
+        "numChildren": 2&#13;
+    },&#13;
+    "data": {&#13;
+        "key": "LM59USNB",&#13;
+        "version": 379,&#13;
+        "itemType": "blogPost",&#13;
+        "title": "Xinjiang’s New Slavery",&#13;
+        "creators": [&#13;
+            {&#13;
+                "creatorType": "author",&#13;
+                "firstName": "Adrian",&#13;
+                "lastName": "Zenz"&#13;
+            }&#13;
+        ],&#13;
+        "abstractNote": "Coerced Uighur labor touches almost every part of the supply chain.",&#13;
+        "blogTitle": "Foreign Policy",&#13;
+        "websiteType": "",&#13;
+        "date": "",&#13;
+        "url": "https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/",&#13;
+        "accessDate": "2019-12-12T19:02:43Z",&#13;
+        "language": "en-US",&#13;
+        "shortTitle": "",&#13;
+        "rights": "",&#13;
+        "extra": "",&#13;
+        "tags": [&#13;
+            {&#13;
+                "tag": "XUAR"&#13;
+            },&#13;
+            {&#13;
+                "tag": "Xinjiang"&#13;
+            },&#13;
+            {&#13;
+                "tag": "forced labor"&#13;
+            },&#13;
+            {&#13;
+                "tag": "poverty alleviation"&#13;
+            }&#13;
+        ],&#13;
+        "collections": [&#13;
+            "PSQVC8B7"&#13;
+        ],&#13;
+        "relations": {&#13;
+            "owl:sameAs": "http://zotero.org/groups/2437618/items/74PFWNPV"&#13;
+        },&#13;
+        "dateAdded": "2020-02-06T21:58:44Z",&#13;
+        "dateModified": "2020-02-06T21:58:44Z"&#13;
+    }&#13;
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ac902cb1b40201017ef4375cc4bcb72</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>bac902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:05:02</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"key","children":[],"type":"string","jpath":"$.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.version","previewValue":"379"},{"name":"library","children":[{"name":"type","children":[],"type":"string","jpath":"$.library.type","previewValue":"group"},{"name":"id","children":[],"type":"string","jpath":"$.library.id","previewValue":"2438468"},{"name":"name","children":[],"type":"string","jpath":"$.library.name","previewValue":"CECC Shared Library"},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.library.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468"},{"name":"type","children":[],"type":"string","jpath":"$.library.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.library.links.alternate","previewValue":""}],"type":"object","jpath":"$.library.links","previewValue":""}],"type":"object","jpath":"$.library","previewValue":""},{"name":"links","children":[{"name":"self","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.self.href","previewValue":"https://api.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.self.type","previewValue":"application/json"}],"type":"object","jpath":"$.links.self","previewValue":""},{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.links.alternate","previewValue":""}],"type":"object","jpath":"$.links","previewValue":""},{"name":"meta","children":[{"name":"createdByUser","children":[{"name":"id","children":[],"type":"string","jpath":"$.meta.createdByUser.id","previewValue":"6069070"},{"name":"username","children":[],"type":"string","jpath":"$.meta.createdByUser.username","previewValue":"luke.adams"},{"name":"name","children":[],"type":"string","jpath":"$.meta.createdByUser.name","previewValue":""},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.href","previewValue":"https://www.zotero.org/luke.adams"},{"name":"type","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.meta.createdByUser.links.alternate","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser.links","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser","previewValue":""},{"name":"creatorSummary","children":[],"type":"string","jpath":"$.meta.creatorSummary","previewValue":"Zenz"},{"name":"numChildren","children":[],"type":"string","jpath":"$.meta.numChildren","previewValue":"2"}],"type":"object","jpath":"$.meta","previewValue":""},{"name":"data","children":[{"name":"key","children":[],"type":"string","jpath":"$.data.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.data.version","previewValue":"379"},{"name":"itemType","children":[],"type":"string","jpath":"$.data.itemType","previewValue":"blogPost"},{"name":"title","children":[],"type":"string","jpath":"$.data.title","previewValue":"Xinjiang’s New Slavery"},{"name":"creators","children":[{"name":"creators_object","children":[{"name":"creatorType","children":[],"type":"string","jpath":"$.data.creators[*].creatorType","previewValue":"author"},{"name":"firstName","children":[],"type":"string","jpath":"$.data.creators[*].firstName","previewValue":"Adrian"},{"name":"lastName","children":[],"type":"string","jpath":"$.data.creators[*].lastName","previewValue":"Zenz"}],"type":"object","jpath":"$.data.creators[*]","previewValue":""}],"type":"array.object","jpath":"$.data.creators[*]","previewValue":""},{"name":"abstractNote","children":[],"type":"string","jpath":"$.data.abstractNote","previewValue":"Coerced Uighur labor touches almost every part of the supply chain."},{"name":"blogTitle","children":[],"type":"string","jpath":"$.data.blogTitle","previewValue":"Foreign Policy"},{"name":"websiteType","children":[],"type":"string","jpath":"$.data.websiteType","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.data.date","previewValue":""},{"name":"url","children":[],"type":"string","jpath":"$.data.url","previewValue":"https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/"},{"name":"accessDate","children":[],"type":"string","jpath":"$.data.accessDate","previewValue":"2019-12-12T19:02:43Z"},{"name":"language","children":[],"type":"string","jpath":"$.data.language","previewValue":"en-US"},{"name":"shortTitle","children":[],"type":"string","jpath":"$.data.shortTitle","previewValue":""},{"name":"rights","children":[],"type":"string","jpath":"$.data.rights","previewValue":""},{"name":"extra","children":[],"type":"string","jpath":"$.data.extra","previewValue":""},{"name":"tags","children":[{"name":"tags_object","children":[{"name":"tag","children":[],"type":"string","jpath":"$.data.tags[*].tag","previewValue":"XUAR"}],"type":"object","jpath":"$.data.tags[*]","previewValue":""}],"type":"array.object","jpath":"$.data.tags[*]","previewValue":""},{"name":"collections","children":[{"name":"collections_string","children":[],"type":"string","jpath":"$.data.collections[*]","previewValue":"PSQVC8B7"}],"type":"array.string","jpath":"$.data.collections[*]","previewValue":""},{"name":"relations","children":[{"name":"sameAs","children":[],"type":"string","jpath":"","previewValue":""}],"type":"object","jpath":"$.data.relations","previewValue":""},{"name":"dateAdded","children":[],"type":"string","jpath":"$.data.dateAdded","previewValue":"2020-02-06T21:58:44Z"},{"name":"dateModified","children":[],"type":"string","jpath":"$.data.dateModified","previewValue":"2020-02-06T21:58:44Z"}],"type":"object","jpath":"$.data","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ac902cb1b40201017ef4375cc4bcb72"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>3ac902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>b2c902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>76c902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ac902cb1b40201017ef4375cc4bcb72^sys_idNOT INf6c902cb1b40201017ef4375cc4bcb78"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD22c902cb31402010632ea20f83247b76,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">2ac902cb1b40201017ef4375cc4bcb72</model>
+        <model_id>2ac902cb1b40201017ef4375cc4bcb72</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ac902cb1b40201017ef4375cc4bcb72</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>f6c902cb1b40201017ef4375cc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action>
+        <cid>b4deb3c9-c0f9-47a6-8286-f0292e632045</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+        <sys_id>d3898a8b1b40201017ef4375cc4bcbe0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1b89ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1f89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Zotero-API-Key","value":""}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5789ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5b89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9389ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>https://api.zotero.org/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>4829ce4b1b40201017ef4375cc4bcbce</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d389ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>db89ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>bb1902831b40201017ef4375cc4bcbed</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>db89ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>{"key":{"name":"key","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"key7645404486","default":"7f1iVhE5D2GHVkRYwpSszGUA","type":"string"}},"format":{"name":"format","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"enum":["json","atom","bib","bibtex","bookmarks","coins","csljson","mods","refer","rdf_bibliontology","rdf_dc","rdf_zotero","ris","tei","wikipedia"],"glideType":"choice","deprecated":false,"name":"format2948343865","type":"string"}},"include":{"name":"include","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"include2412580665","type":"string"}},"content":{"name":"content","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"content5251266757","type":"string"}},"style":{"name":"style","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"style9710543695","type":"string"}},"users_or_groups":{"name":"users_or_groups","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"enum":["groups","users"],"glideType":"choice","deprecated":false,"name":"users_or_groups7407573262","type":"string"}},"elementid":{"name":"elementId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"elementId8517366649","type":"string"}},"itemkey1":{"name":"itemKey","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"itemKey6092705480","type":"string"}}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>df89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5389ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d389ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1389ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9f89ca8b1b40201017ef4375cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5f89ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d789ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9b89ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1789ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/groups/&lt;your path here&gt;/items/{{action.itemkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5b89ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT IN38d6028b1b00201017ef4375cc4bcb22"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dc106385-f2bc-49ee-ad2f-85d762618fbd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>itemkey</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>itemKey</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</model>
+        <model_id>be1cb5f6dbcce010126ba5d51b9619c7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 20:51:35</sys_created_on>
+        <sys_id>38d6028b1b00201017ef4375cc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 20:51:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT INe9e9c2cb1b40201017ef4375cc4bcb75"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9d7b824f55402010dc3ff621106fdc7e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=c0663690-3a43-41d2-84ad-a98bdacc27a2,sourceType=step,sourceUiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e,uiType=object,uiTypeLabel=Object,uiUniqueId=810c1a34-204e-4365-a174-e735a13f8905</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</model>
+        <model_id>be1cb5f6dbcce010126ba5d51b9619c7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_be1cb5f6dbcce010126ba5d51b9619c7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:05:02</sys_created_on>
+        <sys_id>e9e9c2cb1b40201017ef4375cc4bcb75</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:11:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT IN2ac902cb1b40201017ef4375cc4bcb72,d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action>
+        <cid>c0663690-3a43-41d2-84ad-a98bdacc27a2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:33</sys_created_on>
+        <sys_id>2ac902cb1b40201017ef4375cc4bcb72</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:05:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ac902cb1b40201017ef4375cc4bcb72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ac902cb1b40201017ef4375cc4bcb72</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>7ec902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <value>{&#13;
+    "key": "LM59USNB",&#13;
+    "version": 379,&#13;
+    "library": {&#13;
+        "type": "group",&#13;
+        "id": 2438468,&#13;
+        "name": "CECC Shared Library",&#13;
+        "links": {&#13;
+            "alternate": {&#13;
+                "href": "https://www.zotero.org/groups/2438468",&#13;
+                "type": "text/html"&#13;
+            }&#13;
+        }&#13;
+    },&#13;
+    "links": {&#13;
+        "self": {&#13;
+            "href": "https://api.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "application/json"&#13;
+        },&#13;
+        "alternate": {&#13;
+            "href": "https://www.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "text/html"&#13;
+        }&#13;
+    },&#13;
+    "meta": {&#13;
+        "createdByUser": {&#13;
+            "id": 6069070,&#13;
+            "username": "luke.adams",&#13;
+            "name": "",&#13;
+            "links": {&#13;
+                "alternate": {&#13;
+                    "href": "https://www.zotero.org/luke.adams",&#13;
+                    "type": "text/html"&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "creatorSummary": "Zenz",&#13;
+        "numChildren": 2&#13;
+    },&#13;
+    "data": {&#13;
+        "key": "LM59USNB",&#13;
+        "version": 379,&#13;
+        "itemType": "blogPost",&#13;
+        "title": "Xinjiang’s New Slavery",&#13;
+        "creators": [&#13;
+            {&#13;
+                "creatorType": "author",&#13;
+                "firstName": "Adrian",&#13;
+                "lastName": "Zenz"&#13;
+            }&#13;
+        ],&#13;
+        "abstractNote": "Coerced Uighur labor touches almost every part of the supply chain.",&#13;
+        "blogTitle": "Foreign Policy",&#13;
+        "websiteType": "",&#13;
+        "date": "",&#13;
+        "url": "https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/",&#13;
+        "accessDate": "2019-12-12T19:02:43Z",&#13;
+        "language": "en-US",&#13;
+        "shortTitle": "",&#13;
+        "rights": "",&#13;
+        "extra": "",&#13;
+        "tags": [&#13;
+            {&#13;
+                "tag": "XUAR"&#13;
+            },&#13;
+            {&#13;
+                "tag": "Xinjiang"&#13;
+            },&#13;
+            {&#13;
+                "tag": "forced labor"&#13;
+            },&#13;
+            {&#13;
+                "tag": "poverty alleviation"&#13;
+            }&#13;
+        ],&#13;
+        "collections": [&#13;
+            "PSQVC8B7"&#13;
+        ],&#13;
+        "relations": {&#13;
+            "owl:sameAs": "http://zotero.org/groups/2437618/items/74PFWNPV"&#13;
+        },&#13;
+        "dateAdded": "2020-02-06T21:58:44Z",&#13;
+        "dateModified": "2020-02-06T21:58:44Z"&#13;
+    }&#13;
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ac902cb1b40201017ef4375cc4bcb72</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>bac902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:05:02</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"key","children":[],"type":"string","jpath":"$.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.version","previewValue":"379"},{"name":"library","children":[{"name":"type","children":[],"type":"string","jpath":"$.library.type","previewValue":"group"},{"name":"id","children":[],"type":"string","jpath":"$.library.id","previewValue":"2438468"},{"name":"name","children":[],"type":"string","jpath":"$.library.name","previewValue":"CECC Shared Library"},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.library.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468"},{"name":"type","children":[],"type":"string","jpath":"$.library.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.library.links.alternate","previewValue":""}],"type":"object","jpath":"$.library.links","previewValue":""}],"type":"object","jpath":"$.library","previewValue":""},{"name":"links","children":[{"name":"self","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.self.href","previewValue":"https://api.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.self.type","previewValue":"application/json"}],"type":"object","jpath":"$.links.self","previewValue":""},{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.links.alternate","previewValue":""}],"type":"object","jpath":"$.links","previewValue":""},{"name":"meta","children":[{"name":"createdByUser","children":[{"name":"id","children":[],"type":"string","jpath":"$.meta.createdByUser.id","previewValue":"6069070"},{"name":"username","children":[],"type":"string","jpath":"$.meta.createdByUser.username","previewValue":"luke.adams"},{"name":"name","children":[],"type":"string","jpath":"$.meta.createdByUser.name","previewValue":""},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.href","previewValue":"https://www.zotero.org/luke.adams"},{"name":"type","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.meta.createdByUser.links.alternate","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser.links","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser","previewValue":""},{"name":"creatorSummary","children":[],"type":"string","jpath":"$.meta.creatorSummary","previewValue":"Zenz"},{"name":"numChildren","children":[],"type":"string","jpath":"$.meta.numChildren","previewValue":"2"}],"type":"object","jpath":"$.meta","previewValue":""},{"name":"data","children":[{"name":"key","children":[],"type":"string","jpath":"$.data.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.data.version","previewValue":"379"},{"name":"itemType","children":[],"type":"string","jpath":"$.data.itemType","previewValue":"blogPost"},{"name":"title","children":[],"type":"string","jpath":"$.data.title","previewValue":"Xinjiang’s New Slavery"},{"name":"creators","children":[{"name":"creators_object","children":[{"name":"creatorType","children":[],"type":"string","jpath":"$.data.creators[*].creatorType","previewValue":"author"},{"name":"firstName","children":[],"type":"string","jpath":"$.data.creators[*].firstName","previewValue":"Adrian"},{"name":"lastName","children":[],"type":"string","jpath":"$.data.creators[*].lastName","previewValue":"Zenz"}],"type":"object","jpath":"$.data.creators[*]","previewValue":""}],"type":"array.object","jpath":"$.data.creators[*]","previewValue":""},{"name":"abstractNote","children":[],"type":"string","jpath":"$.data.abstractNote","previewValue":"Coerced Uighur labor touches almost every part of the supply chain."},{"name":"blogTitle","children":[],"type":"string","jpath":"$.data.blogTitle","previewValue":"Foreign Policy"},{"name":"websiteType","children":[],"type":"string","jpath":"$.data.websiteType","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.data.date","previewValue":""},{"name":"url","children":[],"type":"string","jpath":"$.data.url","previewValue":"https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/"},{"name":"accessDate","children":[],"type":"string","jpath":"$.data.accessDate","previewValue":"2019-12-12T19:02:43Z"},{"name":"language","children":[],"type":"string","jpath":"$.data.language","previewValue":"en-US"},{"name":"shortTitle","children":[],"type":"string","jpath":"$.data.shortTitle","previewValue":""},{"name":"rights","children":[],"type":"string","jpath":"$.data.rights","previewValue":""},{"name":"extra","children":[],"type":"string","jpath":"$.data.extra","previewValue":""},{"name":"tags","children":[{"name":"tags_object","children":[{"name":"tag","children":[],"type":"string","jpath":"$.data.tags[*].tag","previewValue":"XUAR"}],"type":"object","jpath":"$.data.tags[*]","previewValue":""}],"type":"array.object","jpath":"$.data.tags[*]","previewValue":""},{"name":"collections","children":[{"name":"collections_string","children":[],"type":"string","jpath":"$.data.collections[*]","previewValue":"PSQVC8B7"}],"type":"array.string","jpath":"$.data.collections[*]","previewValue":""},{"name":"relations","children":[{"name":"sameAs","children":[],"type":"string","jpath":"","previewValue":""}],"type":"object","jpath":"$.data.relations","previewValue":""},{"name":"dateAdded","children":[],"type":"string","jpath":"$.data.dateAdded","previewValue":"2020-02-06T21:58:44Z"},{"name":"dateModified","children":[],"type":"string","jpath":"$.data.dateModified","previewValue":"2020-02-06T21:58:44Z"}],"type":"object","jpath":"$.data","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ac902cb1b40201017ef4375cc4bcb72"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>3ac902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>b2c902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>2ac902cb1b40201017ef4375cc4bcb72</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>76c902cb1b40201017ef4375cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ac902cb1b40201017ef4375cc4bcb72^sys_idNOT INf6c902cb1b40201017ef4375cc4bcb78"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD22c902cb31402010632ea20f83247b76,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">2ac902cb1b40201017ef4375cc4bcb72</model>
+        <model_id>2ac902cb1b40201017ef4375cc4bcb72</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ac902cb1b40201017ef4375cc4bcb72</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:04:34</sys_created_on>
+        <sys_id>f6c902cb1b40201017ef4375cc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:04:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action>
+        <cid>b4deb3c9-c0f9-47a6-8286-f0292e632045</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+        <sys_id>d3898a8b1b40201017ef4375cc4bcbe0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1b89ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1f89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Zotero-API-Key","value":""}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5789ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5b89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9389ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>https://api.zotero.org/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>4829ce4b1b40201017ef4375cc4bcbce</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d389ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>db89ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>bb1902831b40201017ef4375cc4bcbed</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>db89ca8b1b40201017ef4375cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>{"key":{"name":"key","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"key7645404486","default":"7f1iVhE5D2GHVkRYwpSszGUA","type":"string"}},"format":{"name":"format","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"enum":["json","atom","bib","bibtex","bookmarks","coins","csljson","mods","refer","rdf_bibliontology","rdf_dc","rdf_zotero","ris","tei","wikipedia"],"glideType":"choice","deprecated":false,"name":"format2948343865","type":"string"}},"include":{"name":"include","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"include2412580665","type":"string"}},"content":{"name":"content","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"content5251266757","type":"string"}},"style":{"name":"style","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"style9710543695","type":"string"}},"users_or_groups":{"name":"users_or_groups","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"enum":["groups","users"],"glideType":"choice","deprecated":false,"name":"users_or_groups7407573262","type":"string"}},"elementid":{"name":"elementId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"elementId8517366649","type":"string"}},"itemkey1":{"name":"itemKey","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"itemKey6092705480","type":"string"}}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3898a8b1b40201017ef4375cc4bcbe0</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>df89ca8b1b40201017ef4375cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3898a8b1b40201017ef4375cc4bcbe0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5389ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d389ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1389ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9f89ca8b1b40201017ef4375cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5f89ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>d789ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9b89ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>9789ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>1789ca8b1b40201017ef4375cc4bcb08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/groups/&lt;your path here&gt;/items/{{action.itemkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>d3898a8b1b40201017ef4375cc4bcbe0</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:03:31</sys_created_on>
+        <sys_id>5b89ca8b1b40201017ef4375cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:03:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT INf8d6028b1b00201017ef4375cc4bcb28"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>itemkey</element>
+        <help/>
+        <hint/>
+        <label>itemKey</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 20:51:36</sys_created_on>
+        <sys_id>f8d6028b1b00201017ef4375cc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 20:51:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT INcf898a8b1b40201017ef4375cc4bcb7e,8b898a8b1b40201017ef4375cc4bcb7f,47898a8b1b40201017ef4375cc4bcb80,03898a8b1b40201017ef4375cc4bcb81,cb898a8b1b40201017ef4375cc4bcb81,87898a8b1b40201017ef4375cc4bcb82,43898a8b1b40201017ef4375cc4bcb83,0f898a8b1b40201017ef4375cc4bcb83,c7898a8b1b40201017ef4375cc4bcb84,83898a8b1b40201017ef4375cc4bcb85,4f898a8b1b40201017ef4375cc4bcb85,0b898a8b1b40201017ef4375cc4bcb86,c3898a8b1b40201017ef4375cc4bcb87,8f898a8b1b40201017ef4375cc4bcb87,4b898a8b1b40201017ef4375cc4bcb88,47898a8b1b40201017ef4375cc4bcba4,03898a8b1b40201017ef4375cc4bcba5"/>
+    <sys_choice field="format" table="var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>json</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>0</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf898a8b1b40201017ef4375cc4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>json</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>atom</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>1</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b898a8b1b40201017ef4375cc4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>atom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bib</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>2</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47898a8b1b40201017ef4375cc4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>bib</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bibtex</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>3</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03898a8b1b40201017ef4375cc4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>bibtex</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bookmarks</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>4</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb898a8b1b40201017ef4375cc4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>bookmarks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>coins</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>5</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87898a8b1b40201017ef4375cc4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>coins</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>csljson</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>6</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43898a8b1b40201017ef4375cc4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>csljson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mods</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>7</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f898a8b1b40201017ef4375cc4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>mods</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>refer</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>8</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7898a8b1b40201017ef4375cc4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>refer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rdf_bibliontology</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>9</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83898a8b1b40201017ef4375cc4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>rdf_bibliontology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rdf_dc</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>10</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f898a8b1b40201017ef4375cc4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>rdf_dc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rdf_zotero</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>11</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b898a8b1b40201017ef4375cc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>rdf_zotero</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ris</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>12</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3898a8b1b40201017ef4375cc4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>ris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>tei</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>13</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f898a8b1b40201017ef4375cc4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>tei</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>wikipedia</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>14</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b898a8b1b40201017ef4375cc4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:29</sys_updated_on>
+            <value>wikipedia</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="users_or_groups" table="var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>users_or_groups</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>groups</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>0</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47898a8b1b40201017ef4375cc4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:30</sys_updated_on>
+            <value>groups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>users_or_groups</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>users</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be1cb5f6dbcce010126ba5d51b9619c7</name>
+            <sequence>1</sequence>
+            <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+            <sys_created_on>2020-10-28 21:03:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03898a8b1b40201017ef4375cc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 21:03:30</sys_updated_on>
+            <value>users</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT INb1e9c2cb1b40201017ef4375cc4bcb7b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_be1cb5f6dbcce010126ba5d51b9619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:05:02</sys_created_on>
+        <sys_id>b1e9c2cb1b40201017ef4375cc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:05:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=be1cb5f6dbcce010126ba5d51b9619c7^sys_idNOT INfc4c028f1b40201017ef4375cc4bcb1a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fc4c028f1b40201017ef4375cc4bcb1a","name":"plan"}}</plan>
+        <snapshot>404cce4f1b40201017ef4375cc4bcb08</snapshot>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc4c028f1b40201017ef4375cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:21</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>zotero_lookup</internal_name>
+        <label_cache>[{"name":"{{action.itemkey}}","label":"action➛itemKey","type":"action","ref":""},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":""},{"name":"{{action.format}}","label":"action➛format","type":"action","ref":""},{"name":"{{action.include}}","label":"action➛include","type":"action","ref":""},{"name":"{{action.content}}","label":"action➛content","type":"action","ref":""},{"name":"{{action.style}}","label":"action➛style","type":"action","ref":""},{"name":"{{action.users_or_groups}}","label":"action➛users_or_groups","type":"action","ref":""},{"name":"{{action.elementid}}","label":"action➛elementId","type":"action","ref":""},{"name":"{{action.itemkey1}}","label":"action➛itemKey1","type":"action","ref":""},{"name":"{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c0663690-3a43-41d2-84ad-a98bdacc27a2].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Zotero LookUp</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c84cce4f1b40201017ef4375cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c84cce4f1b40201017ef4375cc4bcb3d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c84cce4f1b40201017ef4375cc4bcb3d"/>
+    <sys_element_mapping action="delete_multiple" query="id=c84cce4f1b40201017ef4375cc4bcb3d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>root</field>
+        <id>c84cce4f1b40201017ef4375cc4bcb3d</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>104cce4f1b40201017ef4375cc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c84cce4f1b40201017ef4375cc4bcb3d</table>
+        <value>{{step[c0663690-3a43-41d2-84ad-a98bdacc27a2].root}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT IN1c4cce4f1b40201017ef4375cc4bcb64,404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action>
+        <cid>c0663690-3a43-41d2-84ad-a98bdacc27a2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c4cce4f1b40201017ef4375cc4bcb64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c4cce4f1b40201017ef4375cc4bcb64</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>984cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{&#13;
+    "key": "LM59USNB",&#13;
+    "version": 379,&#13;
+    "library": {&#13;
+        "type": "group",&#13;
+        "id": 2438468,&#13;
+        "name": "CECC Shared Library",&#13;
+        "links": {&#13;
+            "alternate": {&#13;
+                "href": "https://www.zotero.org/groups/2438468",&#13;
+                "type": "text/html"&#13;
+            }&#13;
+        }&#13;
+    },&#13;
+    "links": {&#13;
+        "self": {&#13;
+            "href": "https://api.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "application/json"&#13;
+        },&#13;
+        "alternate": {&#13;
+            "href": "https://www.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "text/html"&#13;
+        }&#13;
+    },&#13;
+    "meta": {&#13;
+        "createdByUser": {&#13;
+            "id": 6069070,&#13;
+            "username": "luke.adams",&#13;
+            "name": "",&#13;
+            "links": {&#13;
+                "alternate": {&#13;
+                    "href": "https://www.zotero.org/luke.adams",&#13;
+                    "type": "text/html"&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "creatorSummary": "Zenz",&#13;
+        "numChildren": 2&#13;
+    },&#13;
+    "data": {&#13;
+        "key": "LM59USNB",&#13;
+        "version": 379,&#13;
+        "itemType": "blogPost",&#13;
+        "title": "Xinjiang’s New Slavery",&#13;
+        "creators": [&#13;
+            {&#13;
+                "creatorType": "author",&#13;
+                "firstName": "Adrian",&#13;
+                "lastName": "Zenz"&#13;
+            }&#13;
+        ],&#13;
+        "abstractNote": "Coerced Uighur labor touches almost every part of the supply chain.",&#13;
+        "blogTitle": "Foreign Policy",&#13;
+        "websiteType": "",&#13;
+        "date": "",&#13;
+        "url": "https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/",&#13;
+        "accessDate": "2019-12-12T19:02:43Z",&#13;
+        "language": "en-US",&#13;
+        "shortTitle": "",&#13;
+        "rights": "",&#13;
+        "extra": "",&#13;
+        "tags": [&#13;
+            {&#13;
+                "tag": "XUAR"&#13;
+            },&#13;
+            {&#13;
+                "tag": "Xinjiang"&#13;
+            },&#13;
+            {&#13;
+                "tag": "forced labor"&#13;
+            },&#13;
+            {&#13;
+                "tag": "poverty alleviation"&#13;
+            }&#13;
+        ],&#13;
+        "collections": [&#13;
+            "PSQVC8B7"&#13;
+        ],&#13;
+        "relations": {&#13;
+            "owl:sameAs": "http://zotero.org/groups/2437618/items/74PFWNPV"&#13;
+        },&#13;
+        "dateAdded": "2020-02-06T21:58:44Z",&#13;
+        "dateModified": "2020-02-06T21:58:44Z"&#13;
+    }&#13;
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c4cce4f1b40201017ef4375cc4bcb64</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d44cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"key","children":[],"type":"string","jpath":"$.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.version","previewValue":"379"},{"name":"library","children":[{"name":"type","children":[],"type":"string","jpath":"$.library.type","previewValue":"group"},{"name":"id","children":[],"type":"string","jpath":"$.library.id","previewValue":"2438468"},{"name":"name","children":[],"type":"string","jpath":"$.library.name","previewValue":"CECC Shared Library"},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.library.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468"},{"name":"type","children":[],"type":"string","jpath":"$.library.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.library.links.alternate","previewValue":""}],"type":"object","jpath":"$.library.links","previewValue":""}],"type":"object","jpath":"$.library","previewValue":""},{"name":"links","children":[{"name":"self","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.self.href","previewValue":"https://api.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.self.type","previewValue":"application/json"}],"type":"object","jpath":"$.links.self","previewValue":""},{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.links.alternate","previewValue":""}],"type":"object","jpath":"$.links","previewValue":""},{"name":"meta","children":[{"name":"createdByUser","children":[{"name":"id","children":[],"type":"string","jpath":"$.meta.createdByUser.id","previewValue":"6069070"},{"name":"username","children":[],"type":"string","jpath":"$.meta.createdByUser.username","previewValue":"luke.adams"},{"name":"name","children":[],"type":"string","jpath":"$.meta.createdByUser.name","previewValue":""},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.href","previewValue":"https://www.zotero.org/luke.adams"},{"name":"type","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.meta.createdByUser.links.alternate","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser.links","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser","previewValue":""},{"name":"creatorSummary","children":[],"type":"string","jpath":"$.meta.creatorSummary","previewValue":"Zenz"},{"name":"numChildren","children":[],"type":"string","jpath":"$.meta.numChildren","previewValue":"2"}],"type":"object","jpath":"$.meta","previewValue":""},{"name":"data","children":[{"name":"key","children":[],"type":"string","jpath":"$.data.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.data.version","previewValue":"379"},{"name":"itemType","children":[],"type":"string","jpath":"$.data.itemType","previewValue":"blogPost"},{"name":"title","children":[],"type":"string","jpath":"$.data.title","previewValue":"Xinjiang’s New Slavery"},{"name":"creators","children":[{"name":"creators_object","children":[{"name":"creatorType","children":[],"type":"string","jpath":"$.data.creators[*].creatorType","previewValue":"author"},{"name":"firstName","children":[],"type":"string","jpath":"$.data.creators[*].firstName","previewValue":"Adrian"},{"name":"lastName","children":[],"type":"string","jpath":"$.data.creators[*].lastName","previewValue":"Zenz"}],"type":"object","jpath":"$.data.creators[*]","previewValue":""}],"type":"array.object","jpath":"$.data.creators[*]","previewValue":""},{"name":"abstractNote","children":[],"type":"string","jpath":"$.data.abstractNote","previewValue":"Coerced Uighur labor touches almost every part of the supply chain."},{"name":"blogTitle","children":[],"type":"string","jpath":"$.data.blogTitle","previewValue":"Foreign Policy"},{"name":"websiteType","children":[],"type":"string","jpath":"$.data.websiteType","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.data.date","previewValue":""},{"name":"url","children":[],"type":"string","jpath":"$.data.url","previewValue":"https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/"},{"name":"accessDate","children":[],"type":"string","jpath":"$.data.accessDate","previewValue":"2019-12-12T19:02:43Z"},{"name":"language","children":[],"type":"string","jpath":"$.data.language","previewValue":"en-US"},{"name":"shortTitle","children":[],"type":"string","jpath":"$.data.shortTitle","previewValue":""},{"name":"rights","children":[],"type":"string","jpath":"$.data.rights","previewValue":""},{"name":"extra","children":[],"type":"string","jpath":"$.data.extra","previewValue":""},{"name":"tags","children":[{"name":"tags_object","children":[{"name":"tag","children":[],"type":"string","jpath":"$.data.tags[*].tag","previewValue":"XUAR"}],"type":"object","jpath":"$.data.tags[*]","previewValue":""}],"type":"array.object","jpath":"$.data.tags[*]","previewValue":""},{"name":"collections","children":[{"name":"collections_string","children":[],"type":"string","jpath":"$.data.collections[*]","previewValue":"PSQVC8B7"}],"type":"array.string","jpath":"$.data.collections[*]","previewValue":""},{"name":"relations","children":[{"name":"sameAs","children":[],"type":"string","jpath":"","previewValue":""}],"type":"object","jpath":"$.data.relations","previewValue":""},{"name":"dateAdded","children":[],"type":"string","jpath":"$.data.dateAdded","previewValue":"2020-02-06T21:58:44Z"},{"name":"dateModified","children":[],"type":"string","jpath":"$.data.dateModified","previewValue":"2020-02-06T21:58:44Z"}],"type":"object","jpath":"$.data","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1c4cce4f1b40201017ef4375cc4bcb64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1c4cce4f1b40201017ef4375cc4bcb64^sys_idNOT IN184cce4f1b40201017ef4375cc4bcb69"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD544cce4f9b4020103eba3f2f83fec667,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">1c4cce4f1b40201017ef4375cc4bcb64</model>
+        <model_id>1c4cce4f1b40201017ef4375cc4bcb64</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_1c4cce4f1b40201017ef4375cc4bcb64</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action>
+        <cid>b4deb3c9-c0f9-47a6-8286-f0292e632045</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:18</sys_created_on>
+        <sys_id>404cce4f1b40201017ef4375cc4bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>104cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"key":{"name":"key","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"key7645404486","default":"7f1iVhE5D2GHVkRYwpSszGUA","type":"string"}},"format":{"name":"format","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"enum":["json","atom","bib","bibtex","bookmarks","coins","csljson","mods","refer","rdf_bibliontology","rdf_dc","rdf_zotero","ris","tei","wikipedia"],"glideType":"choice","deprecated":false,"name":"format2948343865","type":"string"}},"include":{"name":"include","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"include2412580665","type":"string"}},"content":{"name":"content","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"content5251266757","type":"string"}},"style":{"name":"style","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"style9710543695","type":"string"}},"users_or_groups":{"name":"users_or_groups","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"enum":["groups","users"],"glideType":"choice","deprecated":false,"name":"users_or_groups7407573262","type":"string"}},"elementid":{"name":"elementId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"elementId8517366649","type":"string"}},"itemkey1":{"name":"itemKey","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"itemKey6092705480","type":"string"}}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>584cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Zotero-API-Key","value":""}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>5c4cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>bb1902831b40201017ef4375cc4bcbed</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>944cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d04cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>4829ce4b1b40201017ef4375cc4bcbce</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>https://api.zotero.org/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d04cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>5c4cce4f1b40201017ef4375cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>104cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>584cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>944cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/groups/&lt;your path here&gt;/items/{{action.itemkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d84cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT INc84cce4f1b40201017ef4375cc4bcb3e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dc106385-f2bc-49ee-ad2f-85d762618fbd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>itemkey</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>itemKey</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</model>
+        <model_id>c84cce4f1b40201017ef4375cc4bcb3d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c84cce4f1b40201017ef4375cc4bcb3d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:18</sys_created_on>
+        <sys_id>c84cce4f1b40201017ef4375cc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT INdc4cce4f1b40201017ef4375cc4bcb82"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD984cce4fb04020107a37e26006863780,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=c0663690-3a43-41d2-84ad-a98bdacc27a2,sourceType=step,sourceUiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e,uiType=object,uiTypeLabel=Object,uiUniqueId=810c1a34-204e-4365-a174-e735a13f8905</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</model>
+        <model_id>c84cce4f1b40201017ef4375cc4bcb3d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c84cce4f1b40201017ef4375cc4bcb3d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT IN1c4cce4f1b40201017ef4375cc4bcb64,404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action>
+        <cid>c0663690-3a43-41d2-84ad-a98bdacc27a2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c4cce4f1b40201017ef4375cc4bcb64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c4cce4f1b40201017ef4375cc4bcb64</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>984cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{&#13;
+    "key": "LM59USNB",&#13;
+    "version": 379,&#13;
+    "library": {&#13;
+        "type": "group",&#13;
+        "id": 2438468,&#13;
+        "name": "CECC Shared Library",&#13;
+        "links": {&#13;
+            "alternate": {&#13;
+                "href": "https://www.zotero.org/groups/2438468",&#13;
+                "type": "text/html"&#13;
+            }&#13;
+        }&#13;
+    },&#13;
+    "links": {&#13;
+        "self": {&#13;
+            "href": "https://api.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "application/json"&#13;
+        },&#13;
+        "alternate": {&#13;
+            "href": "https://www.zotero.org/groups/2438468/items/LM59USNB",&#13;
+            "type": "text/html"&#13;
+        }&#13;
+    },&#13;
+    "meta": {&#13;
+        "createdByUser": {&#13;
+            "id": 6069070,&#13;
+            "username": "luke.adams",&#13;
+            "name": "",&#13;
+            "links": {&#13;
+                "alternate": {&#13;
+                    "href": "https://www.zotero.org/luke.adams",&#13;
+                    "type": "text/html"&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "creatorSummary": "Zenz",&#13;
+        "numChildren": 2&#13;
+    },&#13;
+    "data": {&#13;
+        "key": "LM59USNB",&#13;
+        "version": 379,&#13;
+        "itemType": "blogPost",&#13;
+        "title": "Xinjiang’s New Slavery",&#13;
+        "creators": [&#13;
+            {&#13;
+                "creatorType": "author",&#13;
+                "firstName": "Adrian",&#13;
+                "lastName": "Zenz"&#13;
+            }&#13;
+        ],&#13;
+        "abstractNote": "Coerced Uighur labor touches almost every part of the supply chain.",&#13;
+        "blogTitle": "Foreign Policy",&#13;
+        "websiteType": "",&#13;
+        "date": "",&#13;
+        "url": "https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/",&#13;
+        "accessDate": "2019-12-12T19:02:43Z",&#13;
+        "language": "en-US",&#13;
+        "shortTitle": "",&#13;
+        "rights": "",&#13;
+        "extra": "",&#13;
+        "tags": [&#13;
+            {&#13;
+                "tag": "XUAR"&#13;
+            },&#13;
+            {&#13;
+                "tag": "Xinjiang"&#13;
+            },&#13;
+            {&#13;
+                "tag": "forced labor"&#13;
+            },&#13;
+            {&#13;
+                "tag": "poverty alleviation"&#13;
+            }&#13;
+        ],&#13;
+        "collections": [&#13;
+            "PSQVC8B7"&#13;
+        ],&#13;
+        "relations": {&#13;
+            "owl:sameAs": "http://zotero.org/groups/2437618/items/74PFWNPV"&#13;
+        },&#13;
+        "dateAdded": "2020-02-06T21:58:44Z",&#13;
+        "dateModified": "2020-02-06T21:58:44Z"&#13;
+    }&#13;
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c4cce4f1b40201017ef4375cc4bcb64</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d44cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"key","children":[],"type":"string","jpath":"$.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.version","previewValue":"379"},{"name":"library","children":[{"name":"type","children":[],"type":"string","jpath":"$.library.type","previewValue":"group"},{"name":"id","children":[],"type":"string","jpath":"$.library.id","previewValue":"2438468"},{"name":"name","children":[],"type":"string","jpath":"$.library.name","previewValue":"CECC Shared Library"},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.library.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468"},{"name":"type","children":[],"type":"string","jpath":"$.library.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.library.links.alternate","previewValue":""}],"type":"object","jpath":"$.library.links","previewValue":""}],"type":"object","jpath":"$.library","previewValue":""},{"name":"links","children":[{"name":"self","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.self.href","previewValue":"https://api.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.self.type","previewValue":"application/json"}],"type":"object","jpath":"$.links.self","previewValue":""},{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.links.alternate.href","previewValue":"https://www.zotero.org/groups/2438468/items/LM59USNB"},{"name":"type","children":[],"type":"string","jpath":"$.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.links.alternate","previewValue":""}],"type":"object","jpath":"$.links","previewValue":""},{"name":"meta","children":[{"name":"createdByUser","children":[{"name":"id","children":[],"type":"string","jpath":"$.meta.createdByUser.id","previewValue":"6069070"},{"name":"username","children":[],"type":"string","jpath":"$.meta.createdByUser.username","previewValue":"luke.adams"},{"name":"name","children":[],"type":"string","jpath":"$.meta.createdByUser.name","previewValue":""},{"name":"links","children":[{"name":"alternate","children":[{"name":"href","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.href","previewValue":"https://www.zotero.org/luke.adams"},{"name":"type","children":[],"type":"string","jpath":"$.meta.createdByUser.links.alternate.type","previewValue":"text/html"}],"type":"object","jpath":"$.meta.createdByUser.links.alternate","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser.links","previewValue":""}],"type":"object","jpath":"$.meta.createdByUser","previewValue":""},{"name":"creatorSummary","children":[],"type":"string","jpath":"$.meta.creatorSummary","previewValue":"Zenz"},{"name":"numChildren","children":[],"type":"string","jpath":"$.meta.numChildren","previewValue":"2"}],"type":"object","jpath":"$.meta","previewValue":""},{"name":"data","children":[{"name":"key","children":[],"type":"string","jpath":"$.data.key","previewValue":"LM59USNB"},{"name":"version","children":[],"type":"string","jpath":"$.data.version","previewValue":"379"},{"name":"itemType","children":[],"type":"string","jpath":"$.data.itemType","previewValue":"blogPost"},{"name":"title","children":[],"type":"string","jpath":"$.data.title","previewValue":"Xinjiang’s New Slavery"},{"name":"creators","children":[{"name":"creators_object","children":[{"name":"creatorType","children":[],"type":"string","jpath":"$.data.creators[*].creatorType","previewValue":"author"},{"name":"firstName","children":[],"type":"string","jpath":"$.data.creators[*].firstName","previewValue":"Adrian"},{"name":"lastName","children":[],"type":"string","jpath":"$.data.creators[*].lastName","previewValue":"Zenz"}],"type":"object","jpath":"$.data.creators[*]","previewValue":""}],"type":"array.object","jpath":"$.data.creators[*]","previewValue":""},{"name":"abstractNote","children":[],"type":"string","jpath":"$.data.abstractNote","previewValue":"Coerced Uighur labor touches almost every part of the supply chain."},{"name":"blogTitle","children":[],"type":"string","jpath":"$.data.blogTitle","previewValue":"Foreign Policy"},{"name":"websiteType","children":[],"type":"string","jpath":"$.data.websiteType","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.data.date","previewValue":""},{"name":"url","children":[],"type":"string","jpath":"$.data.url","previewValue":"https://foreignpolicy.com/2019/12/11/cotton-china-uighur-labor-xinjiang-new-slavery/"},{"name":"accessDate","children":[],"type":"string","jpath":"$.data.accessDate","previewValue":"2019-12-12T19:02:43Z"},{"name":"language","children":[],"type":"string","jpath":"$.data.language","previewValue":"en-US"},{"name":"shortTitle","children":[],"type":"string","jpath":"$.data.shortTitle","previewValue":""},{"name":"rights","children":[],"type":"string","jpath":"$.data.rights","previewValue":""},{"name":"extra","children":[],"type":"string","jpath":"$.data.extra","previewValue":""},{"name":"tags","children":[{"name":"tags_object","children":[{"name":"tag","children":[],"type":"string","jpath":"$.data.tags[*].tag","previewValue":"XUAR"}],"type":"object","jpath":"$.data.tags[*]","previewValue":""}],"type":"array.object","jpath":"$.data.tags[*]","previewValue":""},{"name":"collections","children":[{"name":"collections_string","children":[],"type":"string","jpath":"$.data.collections[*]","previewValue":"PSQVC8B7"}],"type":"array.string","jpath":"$.data.collections[*]","previewValue":""},{"name":"relations","children":[{"name":"sameAs","children":[],"type":"string","jpath":"","previewValue":""}],"type":"object","jpath":"$.data.relations","previewValue":""},{"name":"dateAdded","children":[],"type":"string","jpath":"$.data.dateAdded","previewValue":"2020-02-06T21:58:44Z"},{"name":"dateModified","children":[],"type":"string","jpath":"$.data.dateModified","previewValue":"2020-02-06T21:58:44Z"}],"type":"object","jpath":"$.data","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1c4cce4f1b40201017ef4375cc4bcb64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[b4deb3c9-c0f9-47a6-8286-f0292e632045].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>1c4cce4f1b40201017ef4375cc4bcb64</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1c4cce4f1b40201017ef4375cc4bcb64^sys_idNOT IN184cce4f1b40201017ef4375cc4bcb69"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD544cce4f9b4020103eba3f2f83fec667,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=443dfd26-0ae5-4f9a-a3ee-f9fe457c209e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">1c4cce4f1b40201017ef4375cc4bcb64</model>
+        <model_id>1c4cce4f1b40201017ef4375cc4bcb64</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_1c4cce4f1b40201017ef4375cc4bcb64</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action>
+        <cid>b4deb3c9-c0f9-47a6-8286-f0292e632045</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:18</sys_created_on>
+        <sys_id>404cce4f1b40201017ef4375cc4bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>104cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"key":{"name":"key","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"key7645404486","default":"7f1iVhE5D2GHVkRYwpSszGUA","type":"string"}},"format":{"name":"format","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"form","schema":{"enum":["json","atom","bib","bibtex","bookmarks","coins","csljson","mods","refer","rdf_bibliontology","rdf_dc","rdf_zotero","ris","tei","wikipedia"],"glideType":"choice","deprecated":false,"name":"format2948343865","type":"string"}},"include":{"name":"include","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"include2412580665","type":"string"}},"content":{"name":"content","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"content5251266757","type":"string"}},"style":{"name":"style","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":false,"style":"form","schema":{"glideType":"string","deprecated":false,"name":"style9710543695","type":"string"}},"users_or_groups":{"name":"users_or_groups","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"enum":["groups","users"],"glideType":"choice","deprecated":false,"name":"users_or_groups7407573262","type":"string"}},"elementid":{"name":"elementId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"elementId8517366649","type":"string"}},"itemkey1":{"name":"itemKey","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"itemKey6092705480","type":"string"}}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>584cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Zotero-API-Key","value":""}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>5c4cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>bb1902831b40201017ef4375cc4bcbed</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>944cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d04cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>4829ce4b1b40201017ef4375cc4bcbce</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>404cce4f1b40201017ef4375cc4bcb46</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <value>https://api.zotero.org/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=404cce4f1b40201017ef4375cc4bcb46"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d04cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>5c4cce4f1b40201017ef4375cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>544cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>904cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>104cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>dc4cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>584cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>1c4cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>184cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>944cce4f1b40201017ef4375cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/groups/&lt;your path here&gt;/items/{{action.itemkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>404cce4f1b40201017ef4375cc4bcb46</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d84cce4f1b40201017ef4375cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT IN4c4cce4f1b40201017ef4375cc4bcb43"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>itemkey</element>
+        <help/>
+        <hint/>
+        <label>itemKey</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c84cce4f1b40201017ef4375cc4bcb3d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:18</sys_created_on>
+        <sys_id>4c4cce4f1b40201017ef4375cc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c84cce4f1b40201017ef4375cc4bcb3d^sys_idNOT INd04cce4f1b40201017ef4375cc4bcb88"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c84cce4f1b40201017ef4375cc4bcb3d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:15:19</sys_created_on>
+        <sys_id>d04cce4f1b40201017ef4375cc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:15:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>
