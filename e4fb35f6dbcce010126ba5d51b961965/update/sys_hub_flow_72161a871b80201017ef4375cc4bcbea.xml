@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>get both the top tier and the second tier of variables </description>
+        <internal_name>get_all_zotero_variables</internal_name>
+        <label_cache>[{"name":"62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren","label":"1➛root➛meta➛numChildren","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ab78b49c-b8cc-4a7f-8505-23107d9b7801.root","label":"3➛root","reference_display":"root","type":"object","base_type":"object","attributes":{"sourceId":"c0663690-3a43-41d2-84ad-a98bdacc27a2","uiTypeLabel":"Object","co_type_name":"FDf194d64753802010f9a07476572d563c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1c69cdd9-14f3-4f40-8252-f6cfaf861c23","uiType":"object","uiUniqueId":"810c1a34-204e-4365-a174-e735a13f8905"}},{"name":"62282b55-416b-45a4-8bce-51d430fa6d80.root","label":"1➛root","reference_display":"root","type":"object","base_type":"object","attributes":{"sourceId":"c0663690-3a43-41d2-84ad-a98bdacc27a2","uiTypeLabel":"Object","co_type_name":"FD984cce4fb04020107a37e26006863780","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"443dfd26-0ae5-4f9a-a3ee-f9fe457c209e","uiType":"object","uiUniqueId":"810c1a34-204e-4365-a174-e735a13f8905"}}]</label_cache>
+        <latest_snapshot>56475ec71b80201017ef4375cc4bcbbf</latest_snapshot>
+        <master_snapshot>56475ec71b80201017ef4375cc4bcbbf</master_snapshot>
+        <name>Get all Zotero Variables </name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:58:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72161a871b80201017ef4375cc4bcbea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get all Zotero Variables </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name>sys_hub_flow_72161a871b80201017ef4375cc4bcbea</sys_update_name>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:34</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=72161a871b80201017ef4375cc4bcbea"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72161a871b80201017ef4375cc4bcbea"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=72161a871b80201017ef4375cc4bcbea^sys_idNOT IN34471ec71b80201017ef4375cc4bcb13,b8471ec71b80201017ef4375cc4bcb20,f0471ec71b80201017ef4375cc4bcb11"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c471ec71b80201017ef4375cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>34471ec71b80201017ef4375cc4bcb13</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:34</sys_updated_on>
+        <ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=34471ec71b80201017ef4375cc4bcb13"/>
+    <sys_element_mapping action="delete_multiple" query="id=34471ec71b80201017ef4375cc4bcb13"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>34471ec71b80201017ef4375cc4bcb13</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>f8471ec71b80201017ef4375cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren}}!=0</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp child">706492471b80201017ef4375cc4bcb3c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <order>3</order>
+        <parent_ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>b8471ec71b80201017ef4375cc4bcb20</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:34</sys_updated_on>
+        <ui_id>ab78b49c-b8cc-4a7f-8505-23107d9b7801</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8471ec71b80201017ef4375cc4bcb20"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>f0471ec71b80201017ef4375cc4bcb11</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:33</sys_updated_on>
+        <ui_id>62282b55-416b-45a4-8bce-51d430fa6d80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0471ec71b80201017ef4375cc4bcb11"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=72161a871b80201017ef4375cc4bcbea^sys_idNOT INba161a871b80201017ef4375cc4bcbea"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>72161a871b80201017ef4375cc4bcbea</id>
+        <name>Get all Zotero Variables </name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 21:58:21</sys_created_on>
+        <sys_id>ba161a871b80201017ef4375cc4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 21:58:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=72161a871b80201017ef4375cc4bcbea^sys_idNOT IN3847dac71b80201017ef4375cc4bcbf5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dfd5ec18-a6a8-4f0e-929a-5cc89a5bf5d4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>itemkey</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>itemKey</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</model>
+        <model_id>72161a871b80201017ef4375cc4bcbea</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_72161a871b80201017ef4375cc4bcbea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:24</sys_created_on>
+        <sys_id>3847dac71b80201017ef4375cc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=72161a871b80201017ef4375cc4bcbea^sys_idNOT IN3447dac71b80201017ef4375cc4bcbfe"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDb047dac777802010d9ea73c3333998fc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=76e1c56c-39a0-486a-93fd-0627a0b90644</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</model>
+        <model_id>72161a871b80201017ef4375cc4bcbea</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_72161a871b80201017ef4375cc4bcbea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:24</sys_created_on>
+        <sys_id>3447dac71b80201017ef4375cc4bcbfe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=72161a871b80201017ef4375cc4bcbea^sys_idNOT INb8471ec71b80201017ef4375cc4bcb20,f0471ec71b80201017ef4375cc4bcb11"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp child">706492471b80201017ef4375cc4bcb3c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <order>3</order>
+        <parent_ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>b8471ec71b80201017ef4375cc4bcb20</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:34</sys_updated_on>
+        <ui_id>ab78b49c-b8cc-4a7f-8505-23107d9b7801</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8471ec71b80201017ef4375cc4bcb20"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>f0471ec71b80201017ef4375cc4bcb11</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:33</sys_updated_on>
+        <ui_id>62282b55-416b-45a4-8bce-51d430fa6d80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0471ec71b80201017ef4375cc4bcb11"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=72161a871b80201017ef4375cc4bcbea^sys_idNOT IN34471ec71b80201017ef4375cc4bcb13"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c471ec71b80201017ef4375cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>34471ec71b80201017ef4375cc4bcb13</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:34</sys_updated_on>
+        <ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=34471ec71b80201017ef4375cc4bcb13"/>
+    <sys_element_mapping action="delete_multiple" query="id=34471ec71b80201017ef4375cc4bcb13"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>34471ec71b80201017ef4375cc4bcb13</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>f8471ec71b80201017ef4375cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren}}!=0</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_72161a871b80201017ef4375cc4bcbea^sys_idNOT IN7047dac71b80201017ef4375cc4bcbfa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>itemkey</element>
+        <help/>
+        <hint/>
+        <label>itemKey</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72161a871b80201017ef4375cc4bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:24</sys_created_on>
+        <sys_id>7047dac71b80201017ef4375cc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_72161a871b80201017ef4375cc4bcbea^sys_idNOT INb8471ec71b80201017ef4375cc4bcb05"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_72161a871b80201017ef4375cc4bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:25</sys_created_on>
+        <sys_id>b8471ec71b80201017ef4375cc4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=72161a871b80201017ef4375cc4bcbea^sys_idNOT IN72479ec71b80201017ef4375cc4bcbf3"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@177eeee</plan>
+        <plan_id display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</plan_id>
+        <snapshot>56475ec71b80201017ef4375cc4bcbbf</snapshot>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72479ec71b80201017ef4375cc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:33</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>get both the top tier and the second tier of variables </description>
+        <internal_name>get_all_zotero_variables</internal_name>
+        <label_cache>[{"name":"62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren","label":"1➛root➛meta➛numChildren","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ab78b49c-b8cc-4a7f-8505-23107d9b7801.root","label":"3➛root","reference_display":"root","type":"object","base_type":"object","attributes":{"sourceId":"c0663690-3a43-41d2-84ad-a98bdacc27a2","uiTypeLabel":"Object","co_type_name":"FDf194d64753802010f9a07476572d563c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1c69cdd9-14f3-4f40-8252-f6cfaf861c23","uiType":"object","uiUniqueId":"810c1a34-204e-4365-a174-e735a13f8905"}},{"name":"62282b55-416b-45a4-8bce-51d430fa6d80.root","label":"1➛root","reference_display":"root","type":"object","base_type":"object","attributes":{"sourceId":"c0663690-3a43-41d2-84ad-a98bdacc27a2","uiTypeLabel":"Object","co_type_name":"FD984cce4fb04020107a37e26006863780","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"443dfd26-0ae5-4f9a-a3ee-f9fe457c209e","uiType":"object","uiUniqueId":"810c1a34-204e-4365-a174-e735a13f8905"}}]</label_cache>
+        <master>true</master>
+        <name>Get all Zotero Variables </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get all Zotero Variables ">72161a871b80201017ef4375cc4bcbea</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56475ec71b80201017ef4375cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=56475ec71b80201017ef4375cc4bcbbf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=56475ec71b80201017ef4375cc4bcbbf"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN66479ec71b80201017ef4375cc4bcb70,ae479ec71b80201017ef4375cc4bcb7a,ea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action_type>
+        <action_type_parent display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c84cce4f1b40201017ef4375cc4bcb3d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:32</sys_created_on>
+        <sys_id>66479ec71b80201017ef4375cc4bcb70</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:32</sys_updated_on>
+        <ui_id>62282b55-416b-45a4-8bce-51d430fa6d80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=66479ec71b80201017ef4375cc4bcb70"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp child">706492471b80201017ef4375cc4bcb3c</action_type>
+        <action_type_parent display_value="Zotero LookUp child">e91dca8f1b40201017ef4375cc4bcbcd</action_type_parent>
+        <comment/>
+        <compiled_snapshot>706492471b80201017ef4375cc4bcb3c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <order>3</order>
+        <parent_ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:32</sys_created_on>
+        <sys_id>ae479ec71b80201017ef4375cc4bcb7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:32</sys_updated_on>
+        <ui_id>ab78b49c-b8cc-4a7f-8505-23107d9b7801</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae479ec71b80201017ef4375cc4bcb7a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c471ec71b80201017ef4375cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>ea479ec71b80201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_element_mapping action="delete_multiple" query="id=ea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ea479ec71b80201017ef4375cc4bcb60</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>aa479ec71b80201017ef4375cc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren}}!=0</value>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN9e475ec71b80201017ef4375cc4bcbbf"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>56475ec71b80201017ef4375cc4bcbbf</id>
+        <name>Get all Zotero Variables </name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>9e475ec71b80201017ef4375cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN12475ec71b80201017ef4375cc4bcbc1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dfd5ec18-a6a8-4f0e-929a-5cc89a5bf5d4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>itemkey</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>itemKey</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</model>
+        <model_id>56475ec71b80201017ef4375cc4bcbbf</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_56475ec71b80201017ef4375cc4bcbbf</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>12475ec71b80201017ef4375cc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT INde479ec71b80201017ef4375cc4bcb50"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD12479ec78e802010b5a929c55826474f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=76e1c56c-39a0-486a-93fd-0627a0b90644</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</model>
+        <model_id>56475ec71b80201017ef4375cc4bcbbf</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_56475ec71b80201017ef4375cc4bcbbf</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>de479ec71b80201017ef4375cc4bcb50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN66479ec71b80201017ef4375cc4bcb70,ae479ec71b80201017ef4375cc4bcb7a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp">c84cce4f1b40201017ef4375cc4bcb3d</action_type>
+        <action_type_parent display_value="Zotero LookUp">be1cb5f6dbcce010126ba5d51b9619c7</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c84cce4f1b40201017ef4375cc4bcb3d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:32</sys_created_on>
+        <sys_id>66479ec71b80201017ef4375cc4bcb70</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:32</sys_updated_on>
+        <ui_id>62282b55-416b-45a4-8bce-51d430fa6d80</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=66479ec71b80201017ef4375cc4bcb70"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Zotero LookUp child">706492471b80201017ef4375cc4bcb3c</action_type>
+        <action_type_parent display_value="Zotero LookUp child">e91dca8f1b40201017ef4375cc4bcbcd</action_type_parent>
+        <comment/>
+        <compiled_snapshot>706492471b80201017ef4375cc4bcb3c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <order>3</order>
+        <parent_ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:32</sys_created_on>
+        <sys_id>ae479ec71b80201017ef4375cc4bcb7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:32</sys_updated_on>
+        <ui_id>ab78b49c-b8cc-4a7f-8505-23107d9b7801</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae479ec71b80201017ef4375cc4bcb7a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=56475ec71b80201017ef4375cc4bcbbf^sys_idNOT INea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c471ec71b80201017ef4375cc4bcb12</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get all Zotero Variables ">56475ec71b80201017ef4375cc4bcbbf</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>ea479ec71b80201017ef4375cc4bcb60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <ui_id>eff25288-0abc-4d53-b2a0-73354ed2c59a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_element_mapping action="delete_multiple" query="id=ea479ec71b80201017ef4375cc4bcb60"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ea479ec71b80201017ef4375cc4bcb60</id>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>aa479ec71b80201017ef4375cc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{62282b55-416b-45a4-8bce-51d430fa6d80.root.meta.numChildren}}!=0</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN96479ec71b80201017ef4375cc4bcb4a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>itemkey</element>
+        <help/>
+        <hint/>
+        <label>itemKey</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_56475ec71b80201017ef4375cc4bcbbf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>96479ec71b80201017ef4375cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_56475ec71b80201017ef4375cc4bcbbf^sys_idNOT IN26479ec71b80201017ef4375cc4bcb5b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_56475ec71b80201017ef4375cc4bcbbf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:31</sys_created_on>
+        <sys_id>26479ec71b80201017ef4375cc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

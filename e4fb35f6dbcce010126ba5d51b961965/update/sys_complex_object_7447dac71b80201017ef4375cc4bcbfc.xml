@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb047dac777802010d9ea73c3333998fc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e4fb35f6dbcce010126ba5d51b961965</scope_name>
+        <serialized_content>{"FlowDesigner:FDb047dac777802010d9ea73c3333998fc":{},"FlowDesigner:FDb047dac777802010d9ea73c3333998fc.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb047dac777802010d9ea73c3333998fc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"76e1c56c-39a0-486a-93fd-0627a0b90644\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sharon.barnes@nuaxis.com</sys_created_by>
+        <sys_created_on>2020-10-28 22:03:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7447dac71b80201017ef4375cc4bcbfc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FDb047dac777802010d9ea73c3333998fc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Zotero Spoke" source="x_nuai_zotero_spok">e4fb35f6dbcce010126ba5d51b961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zotero Spoke">e4fb35f6dbcce010126ba5d51b961965</sys_scope>
+        <sys_update_name>sys_complex_object_7447dac71b80201017ef4375cc4bcbfc</sys_update_name>
+        <sys_updated_by>sharon.barnes@nuaxis.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 22:03:33</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
